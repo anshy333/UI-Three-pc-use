@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.main-container{
+    width: 100%;
+    height: 99.5vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./pc\ girl.jpg);
+    background-size: 100% 100%;
+    background-position-y: 100px;
+    background-position-x: 250px;
+    background-repeat: no-repeat;
+}
+
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+
+.nav-child-1{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-child-blank{
+    width: 20%;
+    height: 100px;
+}
+
+
+.nav-child-1 h1{
+    font-size: 40px;
+    color: #4d4d4f;
+}
+
+
+.nav-child-2{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1b2e35e0;
+}
+
+
+.nav-child-2 p{
+    font-size: 20px;
+    color: white;
+}
+
+
+.nav-child-2 button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid #5AE4A8;
+    background-color: white;
+}
+
+/* Nav END */
+
+.text-sec-parent{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-inline: 55px;
+}
+
+
+.text-sec-child{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.text-sec-child h1{
+    font-size: 50px;
+    color: #282f2def;
+}
+
+
+.text-sec-child p{
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(44, 8, 8);
+}
+
+.two-btn{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-btn span{
+    display: flex;
+    align-items: center;
+}
+
+.two-btn span p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+}
+
+.bt-1{
+    width: 170px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: #13e7a0;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.bt-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #f049d7;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+/* Responsive css */
+
+@media (max-width: 768px) {
+
+
+    .main-container{
+        width: 100%;
+        height: 99.5vh;
+    }
+    
+    
+    .nav{
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    
+    .nav-child-1{
+        width: 30%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-child-blank{
+        width: 0%;
+        height: 0px;
+    }
+    
+    .nav-child-1 h1{
+        font-size: 35px;
+        color: #4d4d4f;
+    }
+    
+    .nav-child-2{
+        width: 70%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #1b2e35e0;
+    }
+    
+    .nav-child-2 p{
+        font-size: 18px;
+        color: white;
+    }
+    
+    
+    .nav-child-2 button{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        border-radius: 15px;
+        border: 1px solid #5AE4A8;
+        background-color: white;
+    }
+    
+    /* Nav END */
+    
+    .text-sec-parent{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        padding-inline: 55px;
+    }
+    
+    
+    .text-sec-child{
+        width: 40%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .text-sec-child h1{
+        font-size: 45px;
+        color: #282f2d;
+    }
+    
+    
+    .text-sec-child p{
+        font-size: 15px;
+        line-height: 18px;
+        color: rgb(44, 8, 8);
+    }
+    
+    .two-btn{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .two-btn span{
+        display: flex;
+        align-items: center;
+    }
+    
+    .two-btn span p{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(75, 74, 74);
+    }
+    
+    .bt-1{
+        width: 130px;
+        height: 40px;
+        font-size: 17px;
+        font-weight: 600;
+        color: white;
+        background-color: #13e7a0;
+        border-radius: 15px;
+        border: none;
+    }
+    
+    
+    .bt-2{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #5AE4A8;
+    }
+    
+    
+}
+
+
